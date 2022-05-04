@@ -2,35 +2,44 @@ body {
   font-family: sans-serif;
   margin: 0;
 }
-
 html,
 body,
 #root {
   height: 100%;
   width: 100%;
 }
-
 #main-container {
   display: grid;
-  grid-template-columns: 2;
-  grid-template-rows: 2;
+  grid-template-columns: 4;
+  grid-template-rows: 4;
 }
-
-#contacts{
-  grid-column: 2;
-  border-style: dashed;
-}
-#user-profile{
-  grid-column: 1;
-  grid-row: 1;
-  border-style: dotted;
+#contacts {
+  grid-column: 4;
+  grid-row: 1/4;
+  border-style: solid;
   border-radius: 1em;
+  margin: 1em;
+  text-align: center;
 }
-#posts{
-  grid-column: 1;
+#user-profile {
+  grid-column: 1/4;
+  grid-row: 1;
+  border-style: solid;
+  border-radius: 1em;
+  margin: 1em;
+}
+#posts {
+  grid-column: 1/4;
   grid-row: 2;
+  border: 1px solid;
+  border-radius: 1em;
+  margin:1em;
 }
-#header{
+#header {
   background-color: turquoise;
   padding: 5px;
+}
+.contact-card{
+  border : 1px solid;
+  margin-right: 8%;
 }
