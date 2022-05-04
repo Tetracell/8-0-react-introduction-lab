@@ -1,7 +1,7 @@
 const Post = () => {
   return (
     <>
-      <p>Hello, from Post!</p>
+      <p>I am a post that has nothing important in it</p>
     </>
   );
 };

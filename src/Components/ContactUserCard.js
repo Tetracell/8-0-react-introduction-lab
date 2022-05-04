@@ -1,7 +1,7 @@
 const ContactUserCard = () => {
   return (
     <div class="contact-card">
-      <img src="/public/profile.png" alt="" height="100" width="100"></img>
+      <img src="/public/profile.png" alt="" height="50" width="50"></img>
       <p>Fake user</p>
       <p>Fake credentials</p>
     </div>
