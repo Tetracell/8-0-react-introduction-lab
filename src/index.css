@@ -9,3 +9,28 @@ body,
   height: 100%;
   width: 100%;
 }
+
+#main-container {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+}
+
+#contacts{
+  grid-column: 2;
+  border-style: dashed;
+}
+#user-profile{
+  grid-column: 1;
+  grid-row: 1;
+  border-style: dotted;
+  border-radius: 1em;
+}
+#posts{
+  grid-column: 1;
+  grid-row: 2;
+}
+#header{
+  background-color: turquoise;
+  padding: 5px;
+}

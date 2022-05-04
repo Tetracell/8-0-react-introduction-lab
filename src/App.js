@@ -8,17 +8,19 @@ import UserProfile from "./Components/UserProfile";
 const App = () => {
   return (
     <>
-      <div>
-        <Contacts />
-      </div>
-      <div>
+      <header id="header">
         <NavBar />
-      </div>
-      <div>
-        <Posts />
-      </div>
-      <div>
-        <UserProfile />
+      </header>
+      <div id="main-container">
+        <div id="contacts">
+          <Contacts />
+        </div>
+        <div id="posts">
+          <Posts />
+        </div>
+        <div id="user-profile">
+          <UserProfile />
+        </div>
       </div>
     </>
   );
