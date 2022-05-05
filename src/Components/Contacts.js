@@ -4,11 +4,9 @@ const Contacts = () => {
   return (
     <div>
       <h1>Contacts</h1>
-      <ol>
         <ContactUserCard />
         <ContactUserCard />
         <ContactUserCard />
-      </ol>
     </div>
   );
 };

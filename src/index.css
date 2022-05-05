@@ -24,16 +24,17 @@ body,
   text-align: center;
 }
 .contact-card{
-  display:grid;
-  grid-template-columns: 2;
-  grid-template-rows: 1;
-  border : 1px solid;
-  margin-right: 13%;
+  border : 2px solid;
+  margin-bottom:25px;
+  border-radius:1px;
+  margin-left:15px;
+  margin-right:15px;
 }
 .contact-card img{
+  border-radius:10px;
 }
 .contact-card p{
-  grid-column:2;
+
 }
 #user-profile {
   grid-column: 1/4;
