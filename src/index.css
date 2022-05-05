@@ -28,14 +28,12 @@ body,
   grid-template-columns: 2;
   grid-template-rows: 1;
   border : 1px solid;
-  margin-right: 9%;
+  margin-right: 13%;
 }
 .contact-card img{
-  grid-column: 1;
 }
 .contact-card p{
   grid-column:2;
-  grid-row: auto;
 }
 #user-profile {
   grid-column: 1/4;
@@ -52,7 +50,11 @@ body,
   margin:1em;
 }
 #header {
-  background-color: turquoise;
+  background-color: rgb(64, 173, 224);
   padding: 5px;
+  text-align: right;
+}
+#header button{
+  margin:6px;
 }
 
